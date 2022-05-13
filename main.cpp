@@ -5,9 +5,10 @@
 #include "Square.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "Just making sure" << std::endl;
-    std::cout << "Pre exam test" << std::endl;
+//    std::cout << "Hello, World!" << std::endl;
+//    std::cout << "Just making sure" << std::endl;
+//    std::cout << "Pre exam test" << std::endl;
+    std::cout << "Code not complete. main() is commented out. " <<std::endl;
     return 0;
 }
 /*int main() {
@@ -25,4 +26,5 @@ int main() {
 
     return 0;
 }*/
+
 
