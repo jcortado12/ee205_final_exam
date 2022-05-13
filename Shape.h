@@ -8,16 +8,12 @@
 /// @author Jordan Cortado <jcortado@hawaii.edu>
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
-
-#ifndef EE205_FINAL_EXAM_SHAPE_H
-#define EE205_FINAL_EXAM_SHAPE_H
-
+#include <stdexcept>
+#include <iostream>
+#include <iomanip>
 
 class Shape {
 public:
-    virtual double compute_area() const noexcept;
-
+    virtual double compute_area( const double areaOf ) const noexcept;
+public:
 };
-
-
-#endif //EE205_FINAL_EXAM_SHAPE_H

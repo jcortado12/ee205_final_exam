@@ -10,3 +10,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include "Shape.h"
+
+void Shape::compute_area( const double areaOf ) const noexcept {
+    return areaOf;
+}
