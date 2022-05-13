@@ -14,6 +14,6 @@
 
 class Shape {
 public:
-    virtual double compute_area( const double areaOf ) const noexcept;
+    virtual double compute_area( const double area ) const noexcept;
 public:
 };

@@ -11,6 +11,6 @@
 
 #include "Shape.h"
 
-void Shape::compute_area( const double areaOf ) const noexcept {
-    return areaOf;
+double Shape::compute_area( const double area ) const noexcept {
+    return area;
 }
