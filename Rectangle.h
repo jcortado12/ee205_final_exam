@@ -21,4 +21,7 @@ protected:
 public:
     double getLength() const noexcept ;
     double getWidth() const noexcept ;
+
+    bool isLengthValid();
+    bool isWidthValid();
 };

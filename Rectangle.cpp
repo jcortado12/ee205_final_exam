@@ -11,7 +11,6 @@
 #include "Shape.h"
 #include "Rectangle.h"
 
-
 Rectangle::Rectangle( double newLength, double newWidth ) noexcept {
     getLength();
     getWidth();
