@@ -12,14 +12,13 @@
 
 class Rectangle : public Shape {
 public:
+    Rectangle( double newLength, double newWidth ) noexcept;
 
 protected:
-    const double length;
-    const double width;
+    double length;
+    double width;
 
 public:
-    const double getLength() const;
-
-    const double getWidth() const;
-
+    double getLength() const noexcept ;
+    double getWidth() const noexcept ;
 };

@@ -8,12 +8,11 @@
 /// @author Jordan Cortado <jcortado@hawaii.edu>
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
-
+#include "Shape.h"
 #include "Rectangle.h"
 
-const double Rectangle::getLength() const {
-    return length;
-}
-const double Rectangle::getWidth() const {
-    return width;
+
+Rectangle::Rectangle( double newLength, double newWidth ) noexcept {
+    getLength();
+    getWidth();
 }
