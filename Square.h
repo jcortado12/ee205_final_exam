@@ -9,13 +9,7 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 
-#ifndef EE205_FINAL_EXAM_SQUARE_H
-#define EE205_FINAL_EXAM_SQUARE_H
-
-
-class Square {
+class Square : public Rectangle {
 
 };
 
-
-#endif //EE205_FINAL_EXAM_SQUARE_H
