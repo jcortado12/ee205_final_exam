@@ -10,3 +10,10 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include "Rectangle.h"
+
+const double Rectangle::getLength() const {
+    return length;
+}
+const double Rectangle::getWidth() const {
+    return width;
+}

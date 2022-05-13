@@ -9,13 +9,17 @@
 /// @date   13_May_2022
 ///////////////////////////////////////////////////////////////////////////////
 
-#ifndef EE205_FINAL_EXAM_RECTANGLE_H
-#define EE205_FINAL_EXAM_RECTANGLE_H
 
+class Rectangle : public Shape {
+public:
 
-class Rectangle {
+protected:
+    const double length;
+    const double width;
+
+public:
+    const double getLength() const;
+
+    const double getWidth() const;
 
 };
-
-
-#endif //EE205_FINAL_EXAM_RECTANGLE_H
